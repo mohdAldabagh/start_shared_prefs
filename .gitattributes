@@ -1,2 +1,4 @@
 *.dart linguist-language=dart
-*.extension linguist-language=dart
+*.c++ linguist-detectable=false
+*.dart linguist-detectable=true
+*.c linguist-detectable=false
