@@ -32,12 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text(
           'Shared Preferences Demo',
-          style: TextStyle(
-            fontSize: 25,
-            color: Colors.white,
-          ),
         ),
-        backgroundColor: Colors.blueAccent,
       ),
       body: Center(
         child: Column(
