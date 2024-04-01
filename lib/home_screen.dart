@@ -30,7 +30,14 @@ class _HomeScreenState extends State<HomeScreen> {
     //TODO 19: Create a variable to change the theme
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Shared Preferences Demo'),
+        title: const Text(
+          'Shared Preferences Demo',
+          style: TextStyle(
+            fontSize: 25,
+            color: Colors.white,
+          ),
+        ),
+        backgroundColor: Colors.blueAccent,
       ),
       body: Center(
         child: Column(
